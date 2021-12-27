@@ -1,22 +1,17 @@
 # Selenium Java Web Automation
 
-## Check out [Chaldal.com](https://www.chaldal.com) website automation.
+## Check out [Bookshopbd.com](https://bookshopbd.com/) website automation.
 
-**TestCase 01: (soap & oil)** 
-_Test-1_
-
-1. Go to chaldal.com URL
-2. Search soap
-3. From soap, select 1 soap 3 pieces
-4. Scroll down
-5. Select 2 different soap
-
-Test-2
-
-1. Go to chaldal.com URL
-2. Search soap
-3. Scroll down
-4. From oil, select 1 soap & select another soap 2 pieces
+**TestCase 01:**
+Automation Steps:
+1.      Visit this site
+2.      Click  লেখক from the menu
+3.      Select হুমায়ুন আহমেদ
+4.      FILTER BY AUTHORS section select “হুমায়ুন আহমেদ” from the dropdown
+5.      Add to cart book
+6.      Click Confirm Order Button
+7.      Provide Checkout Details
+8.      Click Place Order Button
 
 This project using the following languages and frameworks:
 
