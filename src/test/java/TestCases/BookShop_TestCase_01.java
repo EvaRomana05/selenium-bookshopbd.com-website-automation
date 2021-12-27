@@ -46,10 +46,10 @@ public class BookShop_TestCase_01 extends DriverSetUp {
         aBookShop_PageObject_01.confirmOrderButton.click();
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.firstName.sendKeys("Romana");
+        aBookShop_PageObject_01.firstName.sendKeys("Filips");
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.lastName.sendKeys("Eva");
+        aBookShop_PageObject_01.lastName.sendKeys("Dan");
         Thread.sleep(4000);
 
         //Selecting Items in a Multiple SELECT elements
@@ -58,7 +58,7 @@ public class BookShop_TestCase_01 extends DriverSetUp {
 //        fruits.selectByIndex(1);
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.street.sendKeys("Tilpapara");
+        aBookShop_PageObject_01.street.sendKeys("Nilam");
         Thread.sleep(4000);
 
         aBookShop_PageObject_01.townCity.sendKeys("Dhaka");
@@ -73,21 +73,21 @@ public class BookShop_TestCase_01 extends DriverSetUp {
 //        district.selectByIndex(1);
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.postalCode.sendKeys("1219");
+        aBookShop_PageObject_01.postalCode.sendKeys("1009");
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.mobile.sendKeys("01671592197");
+        aBookShop_PageObject_01.mobile.sendKeys("01720000000");
         Thread.sleep(4000);
 
 
-        aBookShop_PageObject_01.email.sendKeys("romanaeva05@gmail.com");
+        aBookShop_PageObject_01.email.sendKeys("mnop@gmail.com");
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.notes.sendKeys("plz send my book in day , not night");
+        aBookShop_PageObject_01.notes.sendKeys("hlw");
         Thread.sleep(4000);
 
-        aBookShop_PageObject_01.placeOrderButton.click();
-        Thread.sleep(15000);
+//        aBookShop_PageObject_01.placeOrderButton.click();
+//        Thread.sleep(15000);
 
 
 
